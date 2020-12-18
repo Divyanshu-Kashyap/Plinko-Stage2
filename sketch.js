@@ -64,8 +64,8 @@ function draw() {
     if ( gameState =="END"){
         background("black");
         fill("red");
-        textSize(100);
-        text("Game Over", 200, 400);
+        textSize(80);
+        text("Game Over!!!", 200, 350);
       } 
       for(var k = 0; k < plinkos.length; k++){
           plinkos[k].display();
